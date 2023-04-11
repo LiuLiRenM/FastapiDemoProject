@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "fastapidemoproject"
+version = "0.1.0"
+description = "Fastapi框架的demo"
+authors = ["Sakura <liuliren.mm@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.8.16"
+requests = "^2.28.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
